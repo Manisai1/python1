@@ -1,0 +1,17 @@
+1)Modules are collections of methods and constants. They cannot generate instances. Classes may generate instances (objects), and have per- instance state (instance variables).
+
+2)To create instances of a class, you call the class using class name and pass in whatever arguments its ____init_ method accepts.Classes are created by keyword class. Attributes are the variables that belong to a class. Attributes are always public and can be accessed using the dot (.) operator.
+
+3)Attributes are defined within a class and can be accessed and modified by both the class and its objects. In Python, class attributes are defined directly within the class definition and are shared among all instances of the class. They can be accessed using the class name and through an instance of the class.
+
+4)An instance attribute is a Python variable belonging to one, and only one, object. This variable is only accessible in the scope of this object and it is defined inside the constructor function, __init__(self,..) of the class.
+
+5)SELF represents the instance of class.This handy keyword allows you to access variables, attributes, and methods of a defined class in Python. The self parameter doesn't have to be named "self," as you can call it by any other name
+
+6)Python provides some special function or magic function that is automatically invoked when it is associated with that particular operator. For example, when we use + operator, the magic method___add___is automatically invoked in which the operation for + operator is defined.
+
+7)Consider that we have two objects which are a physical representation of a class (user-defined data type) and we have to add two objects with binary '+' operator it throws an error, because compiler don't know how to add two objects. So we define a method for an operator and that process is called operator overloading.
+
+8)Plus Operator Overloaded.The most common use of the addition operator '+' is for concatenating and combining two different strings. The plus symbol's practice in dissimilar forms is the largest classic example of the operator-level overloading process.
+
+9)Both inheritance and polymorphism are fundamental concepts of object oriented programming. These concepts help us to create code that can be extended and easily maintainable.
